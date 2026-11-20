@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_select_all" android:title="Select all shown" app:showAsAction="never" />
+    <item android:id="@+id/action_clear_sel" android:title="Clear selection" app:showAsAction="never" />
+    <item android:id="@+id/action_theme" android:title="Theme: system / light / dark" app:showAsAction="never" />
+</menu>
