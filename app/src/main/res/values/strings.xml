@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Cache Cleaner</string>
+    <string name="a11y_desc">Lets Cache Cleaner tap "Force stop" and "Clear cache" in system Settings for the apps you select. It only acts when you press Start.</string>
+</resources>

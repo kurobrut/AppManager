@@ -2,25 +2,19 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
-
 android {
-    namespace = "com.example.appmanager"
-    compileSdk = 35
-
+    namespace = "com.example.cachecleaner"
+    compileSdk = 34
     defaultConfig {
-        applicationId = "com.example.appmanager"
+        applicationId = "com.example.cachecleaner"
         minSdk = 26
-        targetSdk = 35
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
     }
-
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
-
-    kotlinOptions {
-        jvmTarget = "17"
-    }
+    kotlinOptions { jvmTarget = "17" }
 }
